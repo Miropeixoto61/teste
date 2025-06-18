@@ -1,0 +1,1 @@
+Esse é um arquivo de teste para verificar o comportamento do Git / Guithub em um diretório num disco de backup.
