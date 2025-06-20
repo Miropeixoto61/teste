@@ -6,7 +6,7 @@
     <title>Formulario de cadastro</title>
 </head>
 <body>
-    <form onsubmit="" method="get">
+  <!--  <form onsubmit="" method="get">
         <label for="">Nome:</label><input type="text" name="name"> <br>
         <label for="">Idade:</label><input type="text" name="idade"> <br>
         <label for="">Password:</label><input type="text" name="password"> <br>
@@ -14,8 +14,22 @@
         <button type="button" onclick="alert('cliquei aqui')">Clicável</button>
         <button type="reset" onclick="alert('cliquei aqui')">Limpar</button>
         <button type="submit">Enviar</button>
-    </form>
+    </form> -->
+    <form onsubmit="" action="">
+        <label for="">Nome:</label><input type="text" name="name"> <br>
+        <label for="">Cargo:</label>
+        <select name="role" id="">
+            <option value="">Selecione cargo</option>
+            <option value="gerente">Gerente</option>
+            <option value="diretor">Diretor</option>
+            <option value="presidente">Presidente</option>
+            
+        </select>
 
+        <label for="">Assunto:</label><input type="text" name="subject"> <br>
+        <button type="submit">Enviar</button>
+        
+    </form>
     
 </body>
 </html>
