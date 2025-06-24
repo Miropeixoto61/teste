@@ -6,7 +6,7 @@ body, html {
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
 .bar {
-    background-color: #f9f9fb;
+    background-color: #bce7eb;
     padding:15px;
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
@@ -35,3 +35,4 @@ a { color:blue; text-decoration: none;}
 }
 figure {
     text-align: center;
+}
