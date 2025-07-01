@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  background-color: lightblue;
+  padding: 60;
+  text-align: center;
+
+}
+h2 header{
+  font-size: 1rem;
+  font-weight: normal;
+} 
+main{
+  padding:30px;
+  text-align: center;
+}
+h3{
+  text-transform: uppercase;
+}
+.card{
+  background-color: lightblue;
+  padding: 16px;
+  border-radius: 4px;
+}
+.details{
+  display: flex;
+  gap: 20px;
+}
